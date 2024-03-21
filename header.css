@@ -4,84 +4,55 @@
   margin: 0;
   padding: 0;
 }
-
-header,
-nav {
-  background-color: white;
+.nav-bar {
+  padding: 12px 8px 12px 8px;
+  margin: 12px 8px 0px 8px;
   display: flex;
-  height: 72px;
-  position: sticky;
-  top: 0px;
+  justify-content: space-between;
+  align-items: center;
 }
-header {
-  box-shadow: 0px 10px 20px rgb(230, 228, 228);
+.left-side {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
-
-li {
-  display: inline-block;
-  padding: 27px;
-  text-decoration: none;
-  font-family: "Trispace", sans-serif;
+.left-side a {
+  margin-left: 44px;
 }
-
-a {
-  margin-left: 4px;
-  text-decoration: none;
-  color: rgb(240, 87, 113);
+.list-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
 }
-
-a:hover {
-  font-weight: bolder;
+.list-items li sup {
+  color: rgb(209, 25, 86);
 }
-
-.search {
-  padding: 20px;
-}
-
-input {
-  width: 450px;
-  height: 30px;
-  color: black;
-  border: 2px solid rgb(170, 169, 169);
-  border-radius: 5px;
-  cursor: not-allowed;
-}
-
-button {
-  width: 60px;
-  height: 30px;
-  background-color: white;
-  border: 2px solid rgb(170, 169, 169);
-  border-radius: 5px;
+.list-items li:hover {
+  color: #f13ab1;
   cursor: pointer;
 }
 
-button:hover {
-  border: 4px outset black;
-  font-style: italic;
-}
-
-.rightSideBar {
+.right-side {
+  width: 50%;
   display: flex;
-  width: 20vw;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
-
-/* .rightSideBar:hover{
-    animation-name: anime;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
-} */
-
-/* @keyframes anime {
-    from{
-        height: 35px;
-        width: 35px;
-    }
-    to{
-        height: 50px; 
-        width: 50px;
-    }
-} */
+.search-bar input {
+  width: 450px;
+  padding: 12px;
+  margin-left: 24px;
+  border: none;
+  background-color: #eeeeee;
+}
+.icons {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

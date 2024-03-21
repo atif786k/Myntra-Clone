@@ -1,33 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 main {
   min-height: calc(100vh - 72px - 10vh);
+  margin-top: 44px;
   background-color: white;
 }
 
-.slider {
-  min-height: 500px;
+.slider-dot {
   background-color: white;
-  background-image: url(Images/bgImage.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   display: flex;
-  align-items: end;
   justify-content: center;
 }
-.slider span {
-  margin: 0px 4px;
+.slider-dot span {
+  margin: 24px 4px;
   height: 10px;
   width: 10px;
   border: 1px solid rgb(194, 193, 193);
   border-radius: 100%;
   background-color: rgb(194, 193, 193);
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slides img {
+  width: 100%;
+  height: fit-content;
 }
 
 .heading-items {
@@ -40,20 +43,19 @@ main {
   letter-spacing: 0.2rem;
 }
 
-.items {
-  min-height: calc(934.5px - 500px);
+.category-card {
   height: 100%;
-  padding: 30px;
+  padding: 30px 44px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  grid-template-columns: repeat(6, 1fr); /* 5 columns */
   grid-template-rows: auto auto; /* 2 rows */
   justify-items: center;
 }
 
 .same-style {
   margin: 18px 0px;
-  width: 16vw;
-  height: 250px;
+  width: 200px;
+  height: 280px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,6 +93,21 @@ main {
 }
 .same-styling-10 {
   background-image: url(Images/img10.png);
+}
+.same-styling-11 {
+  background-image: url(Images/img11.png);
+}
+.same-styling-12 {
+  background-image: url(Images/img12.png);
+}
+.same-styling-13 {
+  background-image: url(Images/img13.png);
+}
+.same-styling-14 {
+  background-image: url(Images/img14.png);
+}
+.same-styling-15 {
+  background-image: url(Images/img15.png);
 }
 
 .inner-div {
