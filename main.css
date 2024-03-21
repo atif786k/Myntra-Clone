@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: calc(100vh - 72px - 10vh);
+  background-color: white;
+}
+
+.slider {
+  min-height: 500px;
+  background-color: white;
+  background-image: url(Images/bgImage.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.slider span {
+  margin: 0px 4px;
+  height: 10px;
+  width: 10px;
+  border: 1px solid rgb(194, 193, 193);
+  border-radius: 100%;
+  background-color: rgb(194, 193, 193);
+}
+
+.heading-items {
+  margin: 32px 44px 0px 44px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.items {
+  min-height: calc(934.5px - 500px);
+  height: 100%;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  grid-template-rows: auto auto; /* 2 rows */
+  justify-items: center;
+}
+
+.same-style {
+  margin: 18px 0px;
+  width: 16vw;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border: none;
+}
+.same-styling-1 {
+  background-image: url(Images/img1.png);
+}
+.same-styling-2 {
+  background-image: url(Images/img2.png);
+}
+.same-styling-3 {
+  background-image: url(Images/img3.png);
+}
+.same-styling-4 {
+  background-image: url(Images/img4.png);
+}
+.same-styling-5 {
+  background-image: url(Images/img5.png);
+}
+.same-styling-6 {
+  background-image: url(Images/img6.png);
+}
+.same-styling-7 {
+  background-image: url(Images/img7.png);
+}
+.same-styling-8 {
+  background-image: url(Images/img8.png);
+}
+.same-styling-9 {
+  background-image: url(Images/img9.png);
+}
+.same-styling-10 {
+  background-image: url(Images/img10.png);
+}
+
+.inner-div {
+  margin: 4px;
+  height: 100px;
+  width: 100%;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inner-div h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+.line {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 500;
+}

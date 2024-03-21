@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Trispace:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+nav {
+  background-color: white;
+  display: flex;
+  height: 72px;
+  position: sticky;
+  top: 0px;
+}
+header {
+  box-shadow: 0px 10px 20px rgb(230, 228, 228);
+}
+
+li {
+  display: inline-block;
+  padding: 27px;
+  text-decoration: none;
+  font-family: "Trispace", sans-serif;
+}
+
+a {
+  margin-left: 4px;
+  text-decoration: none;
+  color: rgb(240, 87, 113);
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+.search {
+  padding: 20px;
+}
+
+input {
+  width: 450px;
+  height: 30px;
+  color: black;
+  border: 2px solid rgb(170, 169, 169);
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+button {
+  width: 60px;
+  height: 30px;
+  background-color: white;
+  border: 2px solid rgb(170, 169, 169);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 4px outset black;
+  font-style: italic;
+}
+
+.rightSideBar {
+  display: flex;
+  width: 20vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* .rightSideBar:hover{
+    animation-name: anime;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes anime {
+    from{
+        height: 35px;
+        width: 35px;
+    }
+    to{
+        height: 50px; 
+        width: 50px;
+    }
+} */
