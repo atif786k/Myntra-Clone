@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+header{
+  box-shadow: 10px 10px 10px rgb(241, 239, 239);
+}
 .nav-bar {
   padding: 12px 8px 12px 8px;
   margin: 12px 8px 0px 8px;
@@ -43,12 +46,21 @@
   justify-content: space-between;
   align-items: center;
 }
+.search-bar {
+  position: relative;
+}
 .search-bar input {
   width: 450px;
-  padding: 12px;
+  padding: 8px 12px;
   margin-left: 24px;
   border: none;
   background-color: #eeeeee;
+}
+.ion-icons {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0%, -50%);
 }
 .icons {
   width: 30%;
